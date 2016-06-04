@@ -1,0 +1,32 @@
+
+.collapsible-example .collapsible-header {
+  font-weight: 500;
+  color: #5F5F5F !important;
+}
+
+.collapsible-example .collapsible-header.active {
+background-color: #F6F6F6 !important;
+}
+
+.collapsible-example .collapsible-body li a {
+  display: block;
+  color: #5F5F5F;
+  padding: 0 37.5px 0 45px;
+  font-size: 13px;
+    line-height: 44px;
+    height: 44px;
+}
+
+.collapsible-example .collapsible-body li.active {
+  background-color:  #005587 !important;
+}
+
+.collapsible-example .collapsible-body li.active a {
+  color: #ffffff !important;
+  font-weight: 500;
+  
+}
+
+.collapsible-example .collapsible-header:hover, .collapsible-example .collapsible-body li:hover {
+   background-color: #F6F6F6;
+}
