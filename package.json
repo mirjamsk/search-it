@@ -18,7 +18,7 @@
     "jquery-plugin",
     "ecosystem:jquery"
   ],
-  "version": "0.1.11",
+  "version": "0.1.12",
   "author": "Mirjam Skarica (https://github.com/mirjamsk)",
   "bugs": {
     "url": "https://github.com/mirjamsk/search-it/issues"
