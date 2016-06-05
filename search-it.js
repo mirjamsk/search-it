@@ -1,3 +1,13 @@
+/*
+ search-it v0.1.1
+ http://mirjamsk.github.io/search-it/
+
+ Sample usage:
+    $('#container').searchIt({
+        itemSelector: 'p',
+        inputLabelValue: 'Looking for something?',
+    });  
+*/
 (function($, window, document, undefined) {
 
     var SearchIt = function(elem, options) {
