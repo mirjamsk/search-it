@@ -1,6 +1,6 @@
 #  Search-it
 
-<p align="left">
+<p style="float:left; margin-right:20px;">
   <img src="/../screenshots/screenshot_1.png?raw=true" width="250px" align="left">
 </p>
 <br><br>
