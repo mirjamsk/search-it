@@ -2,15 +2,16 @@ $(document).ready(function() {
     var headers = $('div.collapsible-header');
 
     $('.collapsible').collapsible({
-        accordion: false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
+        accordion: false
     });
+
     $('#searchable-1').searchIt({
         useMaterializeCollapsible: true,
         headerIdentifier: '.collapsible-header',
         itemSelector: '.collapsible-body a',
         searchTemplate: '<div class="input-field">' +
             '<input id="navbar-search" type="text">' +
-            '<label for="navbar-search">Pretraži</label>' +
+            '<label for="navbar-search"><i class="material-icons small">search</i> Search</label>' +
             '</div>'
     });
 
@@ -20,11 +21,8 @@ $(document).ready(function() {
     });
 
     $('#searchable-3').searchIt({
-        itemSelector: 'a',
-        inputLabelValue: 'Looking for something?',
+        itemSelector: 'tr',
         $searchInput: $('#input-container-3').find('input'),
     });
-    $('#searchable-4').searchIt({
-        itemSelector: 'p',
-    });
+
 });
