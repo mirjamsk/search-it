@@ -5,4 +5,3 @@ It also provides nicer filtering when using the [Materialize Collapsible compone
 
 **See [official page] (http://mirjamsk.github.io/search-it/) containing a demo & getting started guide**
 [1]: http://materializecss.com/collapsible.html
-
