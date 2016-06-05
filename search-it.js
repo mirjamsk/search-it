@@ -11,7 +11,7 @@
         defaults: {
             $searchInput: null,
             inputLabelValue: 'Search',
-            itemSelector: ".collapsible-body a",
+            itemSelector: "p",
             searchTemplate: '<div class="input-field"><label for="search">Search</label><input type="text" id="search"></div>',
             headerIdentifier: '.collapsible-header',
             useMaterializeCollapsible: false,

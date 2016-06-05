@@ -10,7 +10,7 @@ $(document).ready(function() {
         itemSelector: '.collapsible-body a',
         searchTemplate: '<div class="input-field">' +
             '<input id="navbar-search" type="text">' +
-            '<label for="navbar-search">Pretraži</label>' +
+            '<label for="navbar-search">Search</label>' +
             '</div>'
     });
 
@@ -25,6 +25,6 @@ $(document).ready(function() {
         $searchInput: $('#input-container-3').find('input'),
     });
     $('#searchable-4').searchIt({
-        itemSelector: 'p',
+        itemSelector: 'tr',
     });
 });
