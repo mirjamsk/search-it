@@ -1,0 +1,37 @@
+{
+  "name": "search-it",
+  "title": "Search-it",
+  "description": "Search-it is a jQuery plugin that makes any block of content searchable by filtering content. It also provides more intuitive filtering when using the Materialize Collapsible component.",
+  "keywords": [
+    "search",
+    "filter",
+    "searching",
+    "filtering",
+    "live searching",
+    "live filtering",
+    "materialize filtering",
+    "materialize searching",
+    "materializecss",
+    "materialize.css",
+    "materialize.scss",
+    "material design",
+    "jquery-plugin",
+    "ecosystem:jquery"
+  ],
+  "version": "0.1.11",
+  "author": "Mirjam Skarica (https://github.com/mirjamsk)",
+  "bugs": {
+    "url": "https://github.com/mirjamsk/search-it/issues"
+  },
+  "homepage": "http://mirjamsk.github.io/search-it/",
+  "dependencies": {
+    "jquery": ">=2.1"
+  },
+  "style": ".example/.*css",
+  "main": "search-it.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mirjamsk/search-it.git"
+  },
+  "license": "MIT"
+}

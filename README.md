@@ -1,8 +1,7 @@
-#  Search-it :mag_right:
+#  Search-it
 jQuery plugin that makes any block of content searchable by filtering content. 
-It also provides nicer filtering when using the [Materialize Collapsible component][1].
+It also provides nicer filtering when using the <a href="http://materializecss.com/collapsible.html" target="_blank">Materialize Collapsible component</a>.
 
 
-**See [official page] (http://mirjamsk.github.io/search-it/) containing a demo & getting started guide**
-[1]: http://materializecss.com/collapsible.html
+**See  <a href="http://mirjamsk.github.io/search-it/" target="_blank">official page</a> containing a demo & getting started guide**
 
