@@ -5,6 +5,8 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" type="image/png" href="favicon.ico" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
@@ -17,7 +19,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <script src="search-it.js"></script>
+    <script src="search-it.min.js"></script>
 </head>
 
 <body>
@@ -46,7 +48,7 @@
     inputLabelValue <span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>Looking for something?<span class="pl-pds">'</span></span>
 }); </pre>
                                 <h3>Materialize.css Collapsible Usage</h3>
-                                <p>To get the Search-it plugin working with <a href="http://materializecss.com/collapsible.html">Matrialize Collapsible</a> component you need to additionally  include Materialize css and js.
+                                <p>To get the Search-it plugin working with <a href="http://materializecss.com/collapsible.html">Matrialize Collapsible</a> component you need to additionally include Materialize css and js.
                                     <div class="highlight highlight-text-html-basic"><pre>
 &lt;<span class="pl-ent">link</span> <span class="pl-e">href</span>=<span class="pl-s"><span class="pl-pds">"</span>https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css<span class="pl-pds">"</span></span> rel="stylesheet"&gt;&lt;/<span class="pl-ent">link</span>&gt;
 &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">"</span>https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js<span class="pl-pds">"</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</pre>
@@ -96,10 +98,6 @@
                                     </div>
                                     <div class="section">
                                         <h3>Collection example</h3>
-                                        <div class="input-field" id="input-container-3">
-                                            <input id="navbar-search" type="text">
-                                            <label for="navbar-search">Looking for something?</label>
-                                        </div>
                                         <div class="collection" id="searchable-3">
                                             <a href="#!" class="collection-item">Social networks</a>
                                             <a href="#!" class="collection-item">E-business </a>
@@ -109,6 +107,10 @@
                                     </div>
                                     <div class="section">
                                         <h3>Table example</h3>
+                                        <div class="input-field" id="input-container-4">
+                                            <input id="navbar-search" type="text">
+                                            <label for="navbar-search"><i class="material-icons small">filter_list</i> Filter</label>
+                                        </div>
                                         <table class="bordered" id="searchable-4">
                                             <tbody>
                                                 <tr>
